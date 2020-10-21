@@ -1,0 +1,15 @@
+.query {
+      display: grid;
+      grid-gap: 2rem;
+      padding: 1rem 5vw;
+      width: 100%;
+      position: fixed;
+      top: 4rem;
+}
+
+@media screen and (min-width: 700px) {
+      .query {
+            grid-template-columns: 1fr auto;
+            top: 3rem;
+      }
+}

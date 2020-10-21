@@ -1,0 +1,42 @@
+.loading {
+      height: 100vh;
+      width: 100vw;
+      background: #03aa70af;
+      display: grid;
+      grid-template-rows: 1fr;
+      grid-template-columns: 1fr;
+      align-items: center;
+      justify-items: center;
+
+      .outer {
+            width: 50vmin;
+            height: 50vmin;
+            grid-row: 1/2;
+            grid-column: 1/2;
+            background: rgba(255, 255, 255, 0.405);
+            border-radius: 50%;
+            border: 16px solid rgba(128, 128, 128, 0.419);
+            border-top: 16px solid #5592a3;
+            animation: spin 2s infinite;
+      }
+
+      .inner {
+            width: 45vmin;
+            height: 45vmin;
+            grid-row: 1/2;
+            grid-column: 1/2;
+            background-image: url("../../public/worldwide.svg");
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+      }
+}
+
+@keyframes spin {
+      0% {
+            transform: rotate(0deg)
+      }
+      100% {
+            transform: rotate(360deg)
+      }
+}

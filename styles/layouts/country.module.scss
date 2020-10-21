@@ -1,0 +1,40 @@
+.country {
+      padding: 13rem 5vw 2rem 5vw;
+      display: grid;
+      justify-items: center;
+      grid-gap: 2rem;
+      align-items: center;
+      min-height: 100vh;
+
+      article {
+            display: grid;
+            grid-gap: 2rem;
+      }
+}
+
+@media screen and (min-width: 700px) {
+      .country {
+            height: 100vh;
+            padding-top: 7rem;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 4rem;
+      }
+}
+
+.light {
+      background: #86DAF1 ;
+
+      header {
+            background: #86DAF1;
+      }
+}
+
+.dark {
+      background: #202C36 ;
+      color: white;
+
+      header {
+            background: #202C36;
+            color: white;
+      }
+}

@@ -1,0 +1,47 @@
+.countries {
+      padding: 16rem 5vw 2rem 5vw;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+      justify-items: center;
+}
+
+@media screen and (min-width: 700px) {
+      .countries {
+            padding-top: 10rem
+      }
+}
+
+.main {
+      padding-top: 4rem;
+}
+
+.light {
+      background: #86DAF1 ;
+      section {
+            article {
+                  background: #03aa70af;
+                  a {
+                        color: black
+                  }
+            }
+      }
+      header {
+            background: #86DAF1;
+      }
+}
+
+.dark {
+      background: #202C36 ;
+      section {
+            article {
+                  background: #2B3844;
+                  a {
+                        color: white
+                  }
+            }
+      }
+      header {
+            background: #202C36;
+            color: white;
+      }
+}
