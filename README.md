@@ -9,5 +9,7 @@ Express: Server side rendering
 External APIs:
 REST Countries API
 
+Version 1.0.0
+
 Design courtesy of frontendmentor.io
 
